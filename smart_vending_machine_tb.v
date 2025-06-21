@@ -22,7 +22,7 @@
 
 `timescale 1ns / 1ps
 
-module vending_machine_tb;
+module smart_vending_machine_tb;
 
     // Inputs
     reg clk;
@@ -37,7 +37,7 @@ module vending_machine_tb;
     wire insufficient;
 
     // Instantiate the vending machine
-    money_manager uut (
+    smart_vending_machine uut (
         .clk(clk),
         .reset(reset),
         .money_inserted(money_inserted),
