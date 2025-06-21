@@ -1,4 +1,4 @@
-module money_manager (
+module smart_vending_machine (
     input clk,
     input reset,
     input [7:0] money_inserted,
